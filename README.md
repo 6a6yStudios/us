@@ -18,4 +18,4 @@ Noxy6a6y
 MIT
 
 ## Author
-- 6a6y Studios, LLC [See Me Live In Action](https://github.com/6a6yStudios/)
+- 6a6y Studios, LLC [See Me Live In Action](https://6a6ystudios.github.io/us/)
