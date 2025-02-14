@@ -1,0 +1,135 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+    font-size: 12px;
+    overflow: auto;
+}
+
+#mainDiv {
+    width: 100%;
+    height: 100%;
+}
+
+#loveHeart {
+    width: 670px;
+    height: 625px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#garden {
+    width: 100%;
+    height: 100%;
+}
+
+#elapseClock {
+    text-align: right;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ff4081; /* Soft pink for a romantic feel */
+}
+
+#words {
+    font-family: "sans-serif";
+    width: 500px;
+    font-size: 24px;
+    color: #bdbdbd; /* Light gray */
+}
+
+#messages {
+    display: none;
+    text-align: center;
+    font-size: 30px;
+    color: #ff4081; /* Romantic pink */
+}
+
+#elapseClock .digit {
+    font-family: "digit";
+    font-size: 40px;
+    text-align: center;
+}
+
+#loveu {
+    padding: 5px;
+    font-size: 22px;
+    margin-top: 80px;
+    margin-right: 120px;
+    text-align: right;
+    display: none;
+    color: #ff4081;
+}
+
+#loveu .signature {
+    margin-top: 10px;
+    font-size: 20px;
+    font-style: italic;
+    color: #e0e0e0;
+}
+
+#clickSound {
+    display: none;
+}
+
+#code {
+    float: left;
+    width: 440px;
+    height: 400px;
+    color: #e0e0e0;
+    font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
+    font-size: 12px;
+    background: #1e1e1e; /* Darker background for the code box */
+    border-radius: 8pxy
+    padding: 10px;
+}
+
+#code .string {
+    color: #ffcc00;
+}
+
+#code .keyword {
+    color: #ff4081;
+    font-weight: bold;
+}
+
+#code .comments {
+    color: #76ff03; /* Green comments for contrast */
+}
+
+#copyright {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    color: #888;
+}
+
+#errorMsg {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    color: #ff0000;
+}
+
+#copyright a {
+    color: #ff4081;
+}
+
+#icon {
+    font-size: 48px;
+    color: #ff4081;
+    margin: 50px;
+    align-content: center;
+}
+
+#heartspan {
+    align-content: center;
+    text-align: center;
+    margin: 20px;
+}
